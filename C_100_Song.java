@@ -7,10 +7,10 @@ public class C_100_Song {
         int M = sc.nextInt();
         int S = sc.nextInt();
         
-        //総持ち時間を秒に変換
+        //総持ち時間を秒に変換する
         int totalTime = M*60 + S;
         
-        //曲の長さを秒で保持
+        //曲の長さを秒で保持する
         int[] songs = new int[N];
         for(int i = 0; i < N; i++) {
             int x = sc.nextInt();
@@ -20,7 +20,7 @@ public class C_100_Song {
             songs[i] = t;
         }
         
-        //短い順にソート
+        //短い順にソートする
         Arrays.sort(songs);
 
         int count = 0;
